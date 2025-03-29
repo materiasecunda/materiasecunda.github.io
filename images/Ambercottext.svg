@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1.4037476in"
+   height="0.52615112in"
+   viewBox="0 0 35.655189 13.364238"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="1x1_75 Ambercot.svg"
+   inkscape:export-filename="Ambercottext.png"
+   inkscape:export-xdpi="249.33258"
+   inkscape:export-ydpi="249.33258"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.9458702"
+     inkscape:cx="42.576159"
+     inkscape:cy="39.66172"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="32.793919"
+       y="20.787401"
+       width="102.8618"
+       height="34.765137"
+       id="rect5" />
+    <rect
+       x="34.94434"
+       y="30.285093"
+       width="113.97231"
+       height="37.990768"
+       id="rect4" />
+    <rect
+       x="28.313875"
+       y="0"
+       width="139.68613"
+       height="98"
+       id="rect3" />
+    <rect
+       x="103.3994"
+       y="0"
+       width="30.643497"
+       height="96"
+       id="rect2" />
+    <rect
+       x="0"
+       y="0"
+       width="168"
+       height="96"
+       id="rect1" />
+    <rect
+       x="28.313875"
+       y="0"
+       width="139.68613"
+       height="98"
+       id="rect3-4" />
+    <rect
+       x="34.94434"
+       y="30.285093"
+       width="113.97231"
+       height="37.990768"
+       id="rect4-5" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.3974054,-3.4308633)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.24;font-family:'Monboddo WF';-inkscape-font-specification:'Monboddo WF';text-align:center;letter-spacing:-1px;word-spacing:-0.19px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#000000;fill-opacity:1;stroke-width:10;stroke-linejoin:round" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.9726px;line-height:1.24;font-family:'Monboddo WF';-inkscape-font-specification:'Monboddo WF';text-align:center;letter-spacing:-0.48647px;word-spacing:-0.0924294px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:4.8647;stroke-linejoin:round"
+       x="21.907171"
+       y="16.600513"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="stroke-width:4.8647"
+         x="21.663937"
+         y="16.600513">Ambercot</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.51065px;line-height:1.24;font-family:'Monboddo WF';-inkscape-font-specification:'Monboddo WF';text-align:center;letter-spacing:-0.281649px;word-spacing:-0.0535133px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:2.81649;stroke-linejoin:round"
+       x="22.225"
+       y="9.0713615"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Steam Gems WF';-inkscape-font-specification:'Steam Gems WF';stroke-width:2.81649"
+         x="22.084177"
+         y="9.0713615">ö</tspan></text>
+  </g>
+</svg>
