@@ -279,11 +279,11 @@ header {
   }
 }
 
-.d-set-icon{font-family: steamgems; font-size:2.8vw; }
-.d-set-text{font-family: medola; font-size:3vw; }
+.d-set-icon{font-family: steamgems; font-size:2.4vw; }
+.d-set-text{font-family: medola; font-size:2.6vw; }
 @media (max-width: 768px) {
-  .d-set-icon{font-size:8vw}
-  .d-set-text{font-size:10vw}
+  .d-set-icon{font-size:6vw}
+  .d-set-text{font-size:8vw}
 }
 
 
