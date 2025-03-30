@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory Listing</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <h2>Files in this directory:</h2>
+    <ul id="file-list"></ul>
+
+    <script>
+        fetch(".")
+            .then(response => response.text())
+            .then(text => {
+                let parser = new DOMParser();
+                let doc = parser.parseFromString(text, "text/html");
+                let links = doc.querySelectorAll("a");
+                let fileList = document.getElementById("file-list");
+                links.forEach(link => {
+                    let fileName = link.getAttribute("href");
+                    if (fileName !== "index.html") {
+                        let li = document.createElement("li");
+                        let a = document.createElement("a");
+                        a.href = fileName;
+                        a.textContent = fileName;
+                        li.appendChild(a);
+                        fileList.appendChild(li);
+                    }
+                });
+            })
+            .catch(error => console.error("Error loading file list:", error));
+    </script>
+</body>
+</html>
