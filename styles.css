@@ -213,10 +213,14 @@ header {
   margin-right: 7.5px;
   background-color: var(--text-color);
 }
-.drop-cap::first-letter {
-    float: left;
-    padding-top: 5px;
-    font-size: 50px; 
+
+.drop-cap img {
+  float:left;
+  width: 55px; 
+  margin-top:3px;
+  height: auto;
+  margin-right: 5px; 
+   
 }
 
 .for { text-align: center; }
