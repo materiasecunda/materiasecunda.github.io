@@ -34,8 +34,8 @@ h1 { font-family: oldkirk; }
 
 p {
   font-family: oldkirk;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .white {
@@ -76,7 +76,7 @@ header {
 .price-line {
   display: flex;
   width: 90%;
-  font-size: 20px;
+  font-size: 16px;
   justify-content: space-between;
 }
 
@@ -87,7 +87,7 @@ header {
 }
 
 @media (max-width: 768px) {
-  .notes { font-size: 4.6vw; }
+  .notes { font-size: 4vw; }
   .price-line { font-size: 4vw; }
 }
 
@@ -226,32 +226,33 @@ header {
 .for { text-align: center; }
 
 .fougere-icon {
-  font-size: 6.5vmax;
+  font-size: 5.7vw;
   font-family: steamgems;
   margin-bottom: 8px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .fougere-text {
-  font-size: 3.5vw;
+  font-size: 3vw;
   font-family: pennyfarthing;
-  margin-right: -20px;
+  margin-left:50px;
 }
 
 @media (max-width: 768px) {
   .fougere-icon { display: none; }
-  .fougere-text { font-size: 9vw; margin: 0; }
+  .fougere-text { font-size: 8vw; margin: 0px; }
 }
-.ambercot-title-text {display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.ambercot-title-text {display: flex; flex-direction: column; justify-content: center; align-items: center;
+margin-bottom:-8px; margin-top:-8px;}
 
 .ambercot-icon{ font-family: steamgems;
-  font-size: 5vw; height:3.5vw;
+  font-size: 4vw; height:2.6vw;
   }
 .ambercot-text{font-family: monboddo;
-  font-size: 6vw;}
+  font-size: 4.5vw;}
 
   @media (max-width: 768px) {
-    .ambercot-title-text { flex-direction: row; }
+    .ambercot-title-text { flex-direction: row; margin-top:-5px; }
     .ambercot-icon{ 
       font-size: 10vw; height:13vw;
       }
@@ -262,13 +263,15 @@ header {
 
 .fallen-icon {
   font-family: steamgems;
-  font-size: 5vw;
-  margin-left: 20px;
+  font-size: 4vw;
+  margin-left: 50px;
 }
 
 .fallen-text {
   font-family: inigo;
-  font-size: 3.5vw;
+  font-size: 3vw;
+  margin-right: 50px;
+  line-height:2.8vw;
 }
 
 @media (max-width: 768px) {
@@ -276,10 +279,14 @@ header {
     font-size: 7vw;
     margin-left: 0;
     margin-right: 5px;
+    margin-bottom:5px;
   }
   .fallen-text {
     font-family: inigo;
     font-size: 7vw;
+    margin-right: 0px;
+    line-height:6vw;
+    margin-bottom:5px;
   }
 }
 
