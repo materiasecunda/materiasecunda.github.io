@@ -34,7 +34,7 @@ h1 { font-family: oldkirk; }
 
 p {
   font-family: oldkirk;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 20px;
 }
 
@@ -149,7 +149,7 @@ header {
 .products-columns-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   height: 100%;
 }
 
@@ -157,25 +157,34 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content:  flex-start;
   flex:1;
-  padding: 10px;
+  width: 10%;
   padding-top: 0px;
 }
 
-.products-column img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .product-flexbox {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
   text-align: center;
-  width: 100%;
-  margin-top: 10px;
+  text-decoration: none;
+  color: inherit;
+  width: 90%;
+  
+  margin-top: 5%;
   margin-bottom: 5%;
 }
+
+.product-flexbox img {
+  display: block;   
+  width: 60%;       
+  margin: 0 auto;   
+}
+
+
 
 .product-title {
   display: flex;
@@ -205,7 +214,7 @@ header {
 
 .vdivider {
   height: auto;
-  width: 1.5px;
+  width: 2px;
   
   margin-top: 0;
   margin-bottom: 0;
@@ -331,7 +340,7 @@ margin-bottom:-8px; margin-top:-8px;}
   .manifesto-body,
   .footnotes {
     width: 100%;
-    padding: 10px;
+    
   }
 
   .vdivider,
