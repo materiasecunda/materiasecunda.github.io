@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 @font-face { font-family: steamgems; src: url('Fonts/steamGems.ttf'); }
-@font-face { font-family: oldkirk; src: url('Fonts/oldkirk.ttf'); }
+@font-face { font-family: oldkirk; src: url('Fonts/oldkirk.ttf') format('truetype');}
 @font-face { font-family: inigo; src: url('Fonts/inigo.ttf'); }
 @font-face { font-family: steamnewscuts; src: url('Fonts/steamNewsCuts_3.ttf'); }
 @font-face { font-family: monboddo; src: url('Fonts/monboddo.ttf'); }
@@ -306,8 +306,7 @@ margin-bottom:-8px; margin-top:-8px;}
   .d-set-text{font-size:8vw}
 }
 
-
-
+  
 /* Responsive layout for small screens */
 @media (max-width: 900px) {
   .products-container {
@@ -353,4 +352,89 @@ margin-bottom:-8px; margin-top:-8px;}
   .fougere { font-size: 4vmax; }
 
   .column-3_footnotes p { margin-top: 0; }
+
 }
+
+
+
+  /* --- PRODUCT PAGE STYLES --- */
+    
+
+    .product-layout {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin: 25px auto;
+      padding: 0 50px;
+      max-width: 1000px;
+      justify-content: center;
+    }
+
+    .product-page-leftcolumn {
+      flex: 1 1 40%;
+    }
+
+    .product-page-rightcolumn {
+      flex: 1 1 30%;
+    }
+
+    .product-page-leftcolumn img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .product-title-block {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    .product-name {
+      margin-bottom: 0.3em;
+      font-family: oldkirkitalic;
+      font-size: 35px;
+      text-align:center;
+    }
+
+    .product-fnotes {
+      font-family: oldkirkitalic;
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+
+    .product-key-ingredients{
+      text-align: center;
+      font-size: 1em;
+    }
+    .product-inspiration {
+      text-align: center;
+      font-size: 0.95em;
+    }
+
+    .product-description {
+      text-align: justify;
+    }
+
+    .divider {
+      margin: 1.5em auto;
+      border-top: 1px solid #a89b84;
+      width: 60%;
+    }
+
+    .shopify-button-wrapper {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    @media (max-width: 800px) {
+      .product-layout {
+        flex-direction: column;
+      }
+
+      .product-page-leftcolumn,
+      .product-page-rightcolumn {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+    }
+/* END PRODUCT PAGE STYLES */

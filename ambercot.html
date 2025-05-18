@@ -1,4 +1,39 @@
-<div id='product-component-1747346813366'></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ambercot</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+
+<body>
+  <div class="product-layout">
+    <div class="product-page-leftcolumn">
+      <img src="images/ambercot.png" alt="A bottle of ambercot perfume">
+    </div>
+
+    <div class="product-page-rightcolumn">
+      <div class="product-title-block">
+        <p class="product-name"><strong>AMBERCOT</strong></p>
+        <p class="product-fnotes">dried apricot · spice · amber</p>
+        <p class="product-key-ingredients">Key ingredients: osmanthus, nutmeg absolute, labdanum</p>
+        <p class="product-inspiration">Inspired by: <em>Shalimar</em> (1921) by Jacques Guerlain</p>
+      </div>
+
+      <div id='product-component-1747498263900' class="shopify-button-wrapper"></div>
+
+      <div class="divider"></div>
+
+      <div class="product-description">
+        <p><em>Shalimar</em>, intensely popular in its day, is considered a classic perfume in the "amber" style—a marriage of heady florals and spiced amber. Ambercot trades the classic rose and jasmine heart of Shalimar for something more rare—osmanthus.</p>
+        <p>Osmanthus, prized for centuries, exists in a world of its own: opulent, sensual, and defying expectation. It smells of animalic leather and the deep sweetness of dried fruits—both familiar and mysterious.</p>
+        <p>Ambercot takes a hefty dose of osmanthus as its core and expands upon it: first upwards, with a luminous, sweet opening of tangerine and apricots. Then, with warm spices that enrich the midpoint, before settling upon a hazy, resinous base that evokes the timeless allure of fossilized amber.</p>
+      </div>
+    </div>
+  </div>
+
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -27,50 +62,82 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '9744280879411',
-        node: document.getElementById('product-component-1747346813366'),
+          variantId: '51519915327795',
+        node: document.getElementById('product-component-1747498263900'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
+ 
+
+
+
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
           "margin-bottom": "50px"
         },
-        "text-align": "left"
+       
+        
       },
       "title": {
-        "font-size": "26px"
+        "font-family": "Crimson Text, serif",
+        "font-weight": "normal",
+        "font-size": "20px"
       },
       "button": {
-        "font-family": "Playfair Display, serif",
+        "font-family": "Old Standard TT, serif",
+        "color": "#d7c6b1",
+        ":hover": {
+          "color": "#d7c6b1",
+          "background-color": "#2e2e36"
+        },
+        "background-color": "#33333c",
+        ":focus": {
+          "background-color": "#2e2e36"
+        },
         "border-radius": "2px",
         "padding-left": "44px",
         "padding-right": "44px"
       },
       "price": {
-        "font-size": "18px"
+        "font-family": "Vollkorn, serif",
+        "font-size": "22px"
       },
       "compareAt": {
+        "font-family": "Vollkorn, serif",
         "font-size": "15.299999999999999px"
       },
       "unitPrice": {
+        "font-family": "Vollkorn, serif",
         "font-size": "15.299999999999999px"
+      },
+      "description": {
+        "font-family": "Lora, serif"
       }
     },
-    "layout": "horizontal",
+    
     "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "description": true
+      
+  "img": false,
+  "title": false,
+  "price": true,
+  "options": false,
+  "button": true,
+  "description": false
+
     },
-    "width": "100%",
+    
+
     "text": {
       "button": "Add to cart"
     },
     "googleFonts": [
-      "Playfair Display"
+      "Crimson Text",
+      "Vollkorn",
+      "Lora",
+      "Old Standard TT"
     ]
   },
   "productSet": {
@@ -84,11 +151,14 @@
   },
   "modalProduct": {
     "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true
-    },
+  "img": false,
+  "title": false,
+  "price": true,
+  "options": false,
+  
+  "button": true,
+  "description": false
+},
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
@@ -98,7 +168,16 @@
         }
       },
       "button": {
-        "font-family": "Playfair Display, serif",
+        "font-family": "Old Standard TT, serif",
+        "color": "#d7c6b1",
+        ":hover": {
+          "color": "#d7c6b1",
+          "background-color": "#2e2e36"
+        },
+        "background-color": "#33333c",
+        ":focus": {
+          "background-color": "#2e2e36"
+        },
         "border-radius": "2px",
         "padding-left": "44px",
         "padding-right": "44px"
@@ -126,10 +205,16 @@
         "font-weight": "normal",
         "font-size": "15.299999999999999px",
         "color": "#4c4c4c"
+      },
+      "description": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "14px",
+        "color": "#4c4c4c"
       }
     },
     "googleFonts": [
-      "Playfair Display"
+      "Old Standard TT"
     ],
     "text": {
       "button": "Add to cart"
@@ -139,27 +224,142 @@
   "cart": {
     "styles": {
       "button": {
-        "font-family": "Playfair Display, serif",
+        "font-family": "Old Standard TT, serif",
+        "color": "#d7c6b1",
+        ":hover": {
+          "color": "#d7c6b1",
+          "background-color": "#2e2e36"
+        },
+        "background-color": "#33333c",
+        ":focus": {
+          "background-color": "#2e2e36"
+        },
         "border-radius": "2px"
+      },
+      "title": {
+        "color": "#33333c"
+      },
+      "header": {
+        "color": "#33333c"
+      },
+      "lineItems": {
+        "color": "#33333c"
+      },
+      "subtotalText": {
+        "color": "#33333c"
+      },
+      "subtotal": {
+        "color": "#33333c"
+      },
+      "notice": {
+        "color": "#33333c"
+      },
+      "currency": {
+        "color": "#33333c"
+      },
+      "close": {
+        "color": "#33333c",
+        ":hover": {
+          "color": "#33333c"
+        }
+      },
+      "empty": {
+        "color": "#33333c"
+      },
+      "noteDescription": {
+        "color": "#33333c"
+      },
+      "discountText": {
+        "color": "#33333c"
+      },
+      "discountIcon": {
+        "fill": "#33333c"
+      },
+      "discountAmount": {
+        "color": "#33333c"
+      },
+      "cart": {
+        "background-color": "#d7c6b1"
+      },
+      "footer": {
+        "background-color": "#d7c6b1"
       }
     },
     "text": {
       "total": "Subtotal",
+      "notice": "Discount codes are added at checkout.",
       "button": "Checkout"
     },
+    "contents": {
+      "note": true
+    },
+    "popup": false,
     "googleFonts": [
-      "Playfair Display"
+      "Old Standard TT"
     ]
   },
   "toggle": {
     "styles": {
       "toggle": {
-        "font-family": "Playfair Display, serif"
+        "font-family": "Old Standard TT, serif",
+        "background-color": "#33333c",
+        ":hover": {
+          "background-color": "#2e2e36"
+        },
+        ":focus": {
+          "background-color": "#2e2e36"
+        }
+      },
+      "count": {
+        "color": "#d7c6b1",
+        ":hover": {
+          "color": "#d7c6b1"
+        }
+      },
+      "iconPath": {
+        "fill": "#d7c6b1"
       }
     },
     "googleFonts": [
-      "Playfair Display"
+      "Old Standard TT"
     ]
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#33333c"
+      },
+      "title": {
+        "color": "#33333c"
+      },
+      "price": {
+        "color": "#33333c"
+      },
+      "fullPrice": {
+        "color": "#33333c"
+      },
+      "discount": {
+        "color": "#33333c"
+      },
+      "discountIcon": {
+        "fill": "#33333c"
+      },
+      "quantity": {
+        "color": "#33333c"
+      },
+      "quantityIncrement": {
+        "color": "#33333c",
+        "border-color": "#33333c"
+      },
+      "quantityDecrement": {
+        "color": "#33333c",
+        "border-color": "#33333c"
+      },
+      "quantityInput": {
+        "color": "#33333c",
+        "border-color": "#33333c"
+      }
+    }
   }
 },
       });
@@ -168,3 +368,6 @@
 })();
 /*]]>*/
 </script>
+</body>
+
+</html>
