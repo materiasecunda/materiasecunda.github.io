@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Try Materia Secunda</title>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<style>
+    .product-name {font-size:3.1em; white-space: nowrap;}
+    .product-key-ingredients { font-size: 1.1em; }
+    .bulletpoints{line-height: 1.5em; font-style:italic; font-size:20px;}
+    .product-layout {display:flex;flex-direction: row-reverse; align-items: center; min-height: 97vh;}
+    .product-page-rightcolumn{align-items: center;}
+    img {border: 5px double var(--text-color); box-sizing: border-box; }
+    .dset-desktop{margin:10px; margin-top:30px;}
+    .dset-desktop img{margin:auto;width:90%;  }
+    .dset-mobile{display:none; width: 90%; margin:auto;}
+    .dset-mobile img{width: 100%;
+      height: auto;
+      display: block;}
+      .divider{margin-top:40px; margin-bottom:40px}
+    
+    
+@media (max-width: 800px) {
+ 
+  .product-name { font-size: 10vw; }
+  .product-key-ingredients { font-size: 3.5vw; }
+  .product-page-rightcolumn {order: 0;}
+  .product-page-leftcolumn {order: 1;}
+  .product-description{order: 2;}
+  .dset-desktop{display:none;}
+  .dset-mobile{display:block; width: 90%; margin:auto; margin-top:9vh;}
+  .button a{display: inline-block;font-size: .8em;}
+  .product-name{margin-top:11vh;}
+  .divider{margin-top: 4vh;}
+  .bulletpoints{font-size:18px; margin-top:4vh;}
+}
+</style>
+
+<body>
+  
+<div class="product-layout" style="margin:auto">
+    <div class="product-page-leftcolumn">
+        <div class="dset-desktop" >
+            <a href="/product/discovery-set"><img src="images/dset.png" alt="Sample set of four 2ml spray perfumes" style="margin-bottom:40px; margin-top:60px;">
+                    </a>
+            <div class="button">
+            <a href="/product/discovery-set">Try the Discovery Set</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-page-rightcolumn">
+        <a href="/" class="product-title-block" >
+            <p class="product-name"><strong>materia secunda</strong></p>
+            <p class="product-key-ingredients" style="margin-bottom:20px;"><strong>A R T I S A N&nbsp; &nbsp; &nbsp; &nbsp; P E R F U M E R Y</strong></p>
+            <div class="bulletpoints">
+                
+                
+                <div>· Made from exquisite materials.</div>
+                
+                <div>· Soft on skin.</div>
+                <!--<div>Elegant & unique.</div> -->
+                <div>· Unapologetically unique. </div>
+             </div>
+            
+        <div class="divider"></div>        
+            </a>
+        <div class="dset-mobile">
+            <a href="/product/discovery-set"><img src="images/dset.png" alt="Sample set of four 2ml spray perfumes" style="margin:20px auto; margin-top:35px;">
+</a>
+            <div class="button" style="margin-bottom:35px;">
+            <a href="/product/discovery-set">Try the Discovery Set</a>
+            </div>
+        </div>
+    
+  <div class="product-description" >
+    
+            <p class="drop-cap"><b>Materia Secunda creates fragrances for those who crave depth, subtlety, and distinction.</b> Each formula is thoughtfully crafted using the most exquisite and rare aromatic materials available—ingredients seldom seen outside artisanal studios due to their complexity and expense.</p>
+
+        <p>Carefully composed with skin safety in mind, every perfume meets and exceeds strict standards, reflecting a commitment to the use of responsible ingredients.</p>
+        <p>In an era where much feels fleeting, each scent draws inspiration from history and uses time-honored materials. They serve as an invitation to connect with the traditions of the past in order to create meaning in the present. A refuge from the ceaseless illusion which haunts modern life.</p>
+        </div>
+        
+    </div>
+</div>
+</body>
+
+</html>
