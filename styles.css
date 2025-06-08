@@ -1,4 +1,4 @@
-* { box-sizing: border-box; }
+
 
 @font-face { font-family: steamgems; src: url('Fonts/steamGems.ttf'); }
 @font-face { font-family: oldkirk; src: url('Fonts/oldkirk.ttf') format('truetype');}
@@ -47,7 +47,10 @@ body {
   color: var(--text-color);
   display: flex;
   flex-direction: column;
+ 
+  
 }
+
 
 h1 { font-family: oldkirk; }
 
@@ -192,7 +195,7 @@ header {
 
 .product-flexbox img {
   display: block;   
-  width: 75%;       
+  width: 90%;       
   margin: 0 auto;  
   border: 5px double var(--text-color); box-sizing: border-box;  
 }
@@ -274,8 +277,10 @@ header {
   .fougere-icon { display: none; }
   .fougere-text { font-size: 8vw; margin: 0px; }
 }
+
+
 .ambercot-title-text {display: flex; flex-direction: column; justify-content: center; align-items: center;
-margin-bottom:-8px; margin-top:-8px;}
+margin-bottom:-8px;  }
 
 .ambercot-icon{ font-family: steamgems;
   font-size: 4vw; height:2.6vw;
@@ -284,7 +289,7 @@ margin-bottom:-8px; margin-top:-8px;}
   font-size: 4.5vw;}
 
   @media (max-width: 768px) {
-    .ambercot-title-text { flex-direction: row; margin-top:-5px; }
+    .ambercot-title-text { flex-direction: row; margin:-1px; }
     .ambercot-icon{ 
       font-size: 10vw; height:13vw;
       }
@@ -459,7 +464,6 @@ margin-bottom:-8px; margin-top:-8px;}
         gap:0px;
         margin-top:10vw;
       }
-
       .product-page-leftcolumn,
       .product-page-rightcolumn {
         flex: 1 1 100%;
