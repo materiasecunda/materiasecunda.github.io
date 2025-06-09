@@ -81,6 +81,16 @@ header {
   margin-bottom:5px;
 }
 
+
+.gem {
+  font-family:steamgems;
+  font-size:30px;
+ position: relative;
+  top: -2px;  /* adjust value as needed */
+  display: inline-block;
+  
+}
+
 .notes {
   font-family: oldkirk;
   font-style:italic;
