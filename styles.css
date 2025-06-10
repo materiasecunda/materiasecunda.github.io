@@ -83,7 +83,7 @@ header {
 
 
 .gem {
-  font-family:steamgems;
+  font-family: steamgems;
   font-size:30px;
  position: relative;
   top: -2px;  /* adjust value as needed */
@@ -150,6 +150,7 @@ header {
 .content {
   display: flex;
   flex-direction: row;
+  
 }
 
 .left-margin { width:7.5%}
@@ -159,7 +160,8 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width:57%
+  width:57%;
+  
 }
 
 .products-header {
@@ -236,6 +238,7 @@ header {
 .horizontal-line {
   width: 100%;
   border-top: 2px solid var(--text-color);
+  Margin:0 auto;
 }
 
 .vdivider {
