@@ -278,7 +278,6 @@
 </footer>
 
 <script type="text/javascript">
-/*<![CDATA[*/
 (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
   if (window.ShopifyBuy) {
@@ -295,7 +294,7 @@
     var script = document.createElement('script');
     script.async = true;
     script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    (document.head || document.body).appendChild(script);
     script.onload = ShopifyBuyInit;
   }
 
@@ -308,77 +307,80 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('cart', {
         options: {
-          "cart": {
-            "popup": false,
-            "styles": {
-              "button": {
-                "font-family": "Old Standard TT, serif",
+          styles: {
+            button: {
+              "font-family": "Old Standard TT, serif",
+              "color": "#dbcaaf",
+              "background-color": "#363232",
+              ":hover": {
                 "color": "#dbcaaf",
-                ":hover": {
-                  "color": "#dbcaaf",
-                  "background-color": "#363232"
-                },
-                "background-color": "#363232",
-                ":focus": {
-                  "background-color": "#363232"
-                },
-                "border-radius": "2px"
+                "background-color": "#363232"
               },
-              "cart": {
-                "background-color": "#dbcaaf"
+              ":focus": {
+                "background-color": "#363232"
               },
-              "footer": {
-                "background-color": "#dbcaaf"
-              }
+              "border-radius": "2px"
             },
-            "text": {
-              "total": "Subtotal",
-              "notice": "Discount codes are added at checkout.",
-              "button": "Checkout"
+            cart: {
+              "background-color": "#dbcaaf"
             },
-            "contents": {
-              "note": true
+            footer: {
+              "background-color": "#dbcaaf"
             },
-            "googleFonts": [
-              "Old Standard TT"
-            ]
-          }
+            title: { color: "#363232" },
+            header: { color: "#363232" },
+            lineItems: { color: "#363232" },
+            subtotalText: { color: "#363232" },
+            subtotal: { color: "#363232" },
+            notice: { color: "#363232" },
+            currency: { color: "#363232" },
+            close: {
+              color: "#363232",
+              ":hover": { color: "#363232" }
+            },
+            empty: { color: "#363232" },
+            noteDescription: { color: "#363232" },
+            discountText: { color: "#363232" },
+            discountIcon: { fill: "#363232" },
+            discountAmount: { color: "#363232" }
+          },
+          text: {
+            total: "Subtotal",
+            notice: "Discount codes are added at checkout.",
+            button: "Checkout"
+          },
+          contents: {
+            note: true
+          },
+          popup: false,
+          googleFonts: ["Old Standard TT"]
         }
       });
 
       ui.createComponent('toggle', {
         options: {
-          "toggle": {
-            "styles": {
-              "toggle": {
-                "font-family": "Old Standard TT, serif",
-                "background-color": "#363232",
-                ":hover": {
-                  "background-color": "#363232"
-                },
-                ":focus": {
-                  "background-color": "#363232"
-                }
-              },
-              "count": {
-                "color": "#dbcaaf"
-              },
-              "iconPath": {
-                "fill": "#dbcaaf"
-              }
+          styles: {
+            toggle: {
+              "font-family": "Old Standard TT, serif",
+              "background-color": "#363232",
+              ":hover": { "background-color": "#363232" },
+              ":focus": { "background-color": "#363232" }
             },
-            "googleFonts": [
-              "Old Standard TT"
-            ]
-          }
+            count: {
+              "color": "#dbcaaf",
+              ":hover": { "color": "#dbcaaf" }
+            },
+            iconPath: {
+              "fill": "#dbcaaf"
+            }
+          },
+          googleFonts: ["Old Standard TT"]
         }
       });
     });
   }
 })();
-/*]]>*/
 </script>
-
 
 </body>
 </html>
